@@ -23,6 +23,7 @@ Welcome to my personal portfolio website! This project showcases my work, skills
 - **About**: Brief background, skills, and career summary
 - **Projects**: Highlighted projects with descriptions, images, and links
 - **Contact**: Simple contact form and social media links
+## 🌐 Live Demo
 
-## 📁 Folder Structure
+## 🧑‍💻 Author
 
