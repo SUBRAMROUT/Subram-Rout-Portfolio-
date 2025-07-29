@@ -560,17 +560,17 @@ h3 {
   color: #555;
 }
 
-/* Mobile Responsive Fix */
 @media (max-width: 768px) {
   .timeline::before {
-    left: 8px; /* Move the line to left */
+    left: 8px;
+    transform: none;
   }
 
   .timeline-item {
-    width: 100%;
+    width: 90%;
     left: 0 !important;
-    padding-left: 20px;
-    padding-right: 20px;
+    align-items: flex-start;
+    padding: 10px 20px;
     margin-bottom: 20px;
   }
 
@@ -578,13 +578,24 @@ h3 {
     left: 0;
     margin-left: -8px;
   }
-  .timeline-content h3,
-  .timeline-content p {
+
+  .timeline-content {
+    padding: 2px;
+    font-size: 0.9rem;
+  }
+
+  .timeline-content h3 {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
     text-align: left;
   }
+
+  .timeline-content p {
+    font-size: 0.95rem;
+    text-align: left;
+    line-height: 1.5;
+  }
 }
-
-
 
 /******************* Skills Section Styling *********************/
 /* Skills Section Base */
